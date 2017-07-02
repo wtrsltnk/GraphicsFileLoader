@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GraphicsFileLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wouter\LOCALS~1\Temp\RSP28E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "./" /I "../mathlib/" /I "./Interface" /I "./Control" /I "./Graphics" /I "./Structure" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/GraphicsFileLoader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\VisualC++\projects\GraphicsFileLoader\DummySceneLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wouter\LOCALS~1\Temp\RSP28E.tmp" 
+Creating temporary file "C:\DOCUME~1\Wouter\LOCALS~1\Temp\RSP28F.tmp" with contents
+[
+winmm.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/GraphicsFileLoader.pdb" /debug /machine:I386 /out:"Debug/GraphicsFileLoader.exe" /pdbtype:sept 
+".\Debug\DummyModifier.obj"
+".\Debug\DummySceneLoader.obj"
+".\Debug\HoofdScherm.obj"
+".\Debug\Scherm.obj"
+".\Debug\SelectionGroups.obj"
+".\Debug\Selector.obj"
+".\Debug\TextureManager.obj"
+".\Debug\ControlCameraTool.obj"
+".\Debug\ControlSelectionTool.obj"
+".\Debug\ControlToolArguments.obj"
+".\Debug\GraphicsCamera.obj"
+".\Debug\GraphicsCube.obj"
+".\Debug\GraphicsEngine.obj"
+".\Debug\GraphicsObjects.obj"
+".\Debug\GraphicsRectangle.obj"
+".\Debug\GraphicsView.obj"
+".\Debug\StructureGroup.obj"
+".\Debug\StructureMaterial.obj"
+".\Debug\StructureScene.obj"
+".\Debug\StructureSceneManager.obj"
+".\Debug\StructureTexCoord.obj"
+".\Debug\StructureTriangle.obj"
+".\Debug\StructureVertex.obj"
+"..\MathLib\Debug\MathLib.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Wouter\LOCALS~1\Temp\RSP28F.tmp"
+<h3>Output Window</h3>
+Compiling...
+DummySceneLoader.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+GraphicsFileLoader.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
