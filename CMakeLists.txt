@@ -4,6 +4,8 @@ project(GraphicsFileLoader)
 
 find_package(OpenGL REQUIRED)
 
+add_subdirectory(MathLib)
+
 add_executable(GraphicsFileLoader
     DummyModifier.cpp
     DummyModifier.h
@@ -70,15 +72,19 @@ add_executable(GraphicsFileLoader
     )
 
 target_include_directories(GraphicsFileLoader
+    PRIVATE ${CMAKE_SOURCE_DIR}
     PRIVATE Interface
-    PRIVATE Control
     PRIVATE Graphics
+    PRIVATE Structure
+    PRIVATE Control
+    PRIVATE MathLib
     )
 
 target_link_libraries(GraphicsFileLoader
     ${OPENGL_LIBRARIES}
     comctl32
     winmm
+    MathLib
     )
 
 target_compile_features(GraphicsFileLoader

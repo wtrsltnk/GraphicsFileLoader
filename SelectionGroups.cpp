@@ -31,7 +31,7 @@ bool SelectionGroups::CheckSize(int newsize)
 			tmp[i] = this->pGroups[i];
 		}
 
-		for (int j = i; j < newsize + 10; j++)
+        for (int j = this->nGroupCount; j < newsize + 10; j++)
 		{
 			tmp[j] = 0;
 		}
